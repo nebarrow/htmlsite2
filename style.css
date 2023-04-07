@@ -1,0 +1,134 @@
+{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: rgb(41, 49, 51);
+}
+/* .btn {
+	margin-top: 300px;
+	margin-left: 530px;
+	width: 250px;
+	color: black;
+	padding: 20px;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: cursive;
+	border: solid 1px black;
+	text-align: center;
+	border-radius: 10px;
+	cursor: pointer;
+} */
+/* .btn:hover {
+	background-color: gray;
+	color: white;
+	transition: 0.5s;
+} */
+/*nav { */
+	/* width: 100vw; */
+	/* height: 5vh; */
+	/* margin-top: 5vh; */
+	/* display: flex; */
+ /* } */
+
+ul {
+	width: 55vw;
+	height: 5vh;
+	text-align: right;
+	margin-left: 35vw;
+
+
+}
+ul li {
+	display: inline-block;
+	cursor: pointer;
+	font-size: 25px;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	color: white;
+}
+ul li:hover {
+	color: white;
+	transition: 0.3s;
+	border-bottom: solid 1px white;
+}
+main {
+	width: 100vw;
+	height: 80vh;
+	display: flex;
+
+}
+img {
+	width: 50vw;
+	height: 80vh;
+	margin-left: 0vw;
+	object-fit: cover;
+}
+.media {
+	width: 46vw;
+}
+.h1 {
+	font-size: 45px;
+	color:  white;
+	font-family: cursive;
+	text-shadow: 4px 4px 6px black;
+	margin-left: 3.5vw;
+}
+.price {
+	font-size: 65px;
+	color:  orange;
+	font-family: cursive;
+	margin-top: 40px;
+	margin-left: 60px;
+	text-shadow: 4px 4px 6px black;
+}
+.btn-cont {
+	display: flex;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+button {
+	margin-left: 30px;
+	font-family: cursive;
+	padding: 15px;
+	width: 20vw;
+	background-color: orange;
+	letter-spacing: 1px;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+
+}
+button:hover {
+	background-color: white;
+	color: black;
+	transition: 0.5s;
+
+}
+.btn-m {
+	text-align: center;
+	border-radius: 5px;
+	background-color: orange;
+	width: 15vw;
+	padding: 15px;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 5px;
+	color: white;
+	font-family: cursive;
+	border: solid 1px black;
+
+}
+.btn-m:hover {
+
+	background-color: white;
+	color: black;
+	transition: 0.5s;
+	border: solid 1px black;
+a {
+	color: white;
+	text-decoration: none;
+}
